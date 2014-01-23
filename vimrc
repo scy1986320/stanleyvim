@@ -18,6 +18,8 @@ set autochdir
 set encoding=utf-8
 set fileencoding=utf-8
 
+map <F2> :set nohlsearch<CR>
+map <F3> :set hlsearch<CR>
 map <F5> :wincmd p<cr>
 map <F6> :Tlist<CR>
 map <F7> :e!<CR>
@@ -45,3 +47,5 @@ set cursorline cursorcolumn
 
 " edit file without swapfile and backaup files
 set noswapfile nobackup
+
+set list listchars=eol:¶,tab:>-,trail:·
